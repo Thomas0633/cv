@@ -1,0 +1,156 @@
+[
+  {
+    "id": "1",
+    "image": "ressources\\html.png",
+    "txt": "HTML 5",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "2",
+    "image": "ressources\\css.png",
+    "txt": "CSS 3",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "3",
+    "image": "ressources\\bootstrap.png",
+    "txt": "Bootstrap",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "4",
+    "image": "ressources\\js.png",
+    "txt": "JavaScript",
+    "desc": "Maîtrise de JavaScript Vanilla",
+    "cat": "front"
+  },
+  {
+    "id": "5",
+    "image": "ressources\\react.png",
+    "txt": "React JS",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "6",
+    "image": "ressources\\logo-redux.png",
+    "txt": "Redux",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "7",
+    "image": "ressources\\logo-sass.png",
+    "txt": "Sass",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "8",
+    "image": "ressources\\node.png",
+    "txt": "Node JS",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "9",
+    "image": "ressources\\visual-studio-code.png",
+    "txt": "Visual Studio Code",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "10",
+    "image": "ressources\\sublime.jpg",
+    "txt": "Sublime Text",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "11",
+    "image": "ressources\\brackets.png",
+    "txt": "Brackets",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "12",
+    "image": "ressources\\notepad++.png",
+    "txt": "Notepad ++",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "13",
+    "image": "ressources\\git.png",
+    "txt": "Git",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "14",
+    "image": "ressources\\github.png",
+    "txt": "GitHub",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "15",
+    "image": "ressources\\ubuntu.png",
+    "txt": "Ubuntu",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "16",
+    "image": "ressources\\mysql.png",
+    "txt": "MySQL",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "17",
+    "image": "ressources\\balsamiq.png",
+    "txt": "Balsamiq",
+    "desc": "Création de wireframe",
+    "cat": "autre"
+  },
+  {
+    "id": "18",
+    "image": "ressources\\office.png",
+    "txt": "Microsoft Office",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "19",
+    "image": "ressources\\PhpMyAdmin_logo.png",
+    "txt": "PhpMyAdmin",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "20",
+    "image": "ressources\\python.png",
+    "txt": "Python",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "21",
+    "image": "ressources\\wamp.png",
+    "txt": "Wamp Server",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "22",
+    "image": "ressources\\xamp.png",
+    "txt": "Xampp Server",
+    "desc": "",
+    "cat": "back"
+  }
+]

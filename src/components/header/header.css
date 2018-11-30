@@ -1,0 +1,33 @@
+/* /////////////////////////// */
+/* --- Header --- */
+.header{
+    color: #ffffff;
+}
+.headName {
+    display: block;
+    border-bottom: 1px solid #ffffff;
+}
+.headJob {
+    display: inline-block;
+    font-size: 85% !important;
+}
+/* --- Header --- */
+
+/* /////////////////////////// */
+
+/* --- Mobile --- */
+@media screen and (max-width: 540px) {
+  .headTitle {
+    width: 85% !important;
+  }
+  .headName {
+    padding-bottom: 5px;
+    font-size: 1.2em !important;
+  }
+  .headJob {
+    font-size: 60% !important;
+  }
+}
+/* --- Mobile --- */
+
+/* /////////////////////////// */

@@ -1,0 +1,72 @@
+.cardContainer {
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  border-right: 2px solid rgb(160, 202, 216) !important;
+  border-left: 2px solid rgb(160, 202, 216) !important;
+  border-bottom: 2px solid rgb(160, 202, 216) !important;
+}
+.divBarreWindows {
+  background-color: rgb(160, 202, 216) !important;
+  font-size: 0.8em !important;
+}
+.iconReduceCard {
+  transform: rotate(0.5turn);
+}
+.containerBadge {
+  position: absolute;
+  top: 0;
+  z-index: 50;
+  opacity: 0;
+  font-size: 1.5em !important;
+}
+.divImageCard {
+  position: relative;
+}
+.containerBadge:hover {
+  transition: 0.5s;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.badgeCard {
+  background-color: rgb(214, 139, 0) !important;
+  font-weight: normal !important;
+}
+.btnCardProjet {
+  background-color: rgb(214, 139, 0) !important;
+  border-color: rgb(214, 139, 0) !important;
+}
+.btnCardProjet:hover {
+  border-color: rgb(156, 102, 0) !important;
+  background-color: rgb(156, 102, 0) !important;
+}
+.bodyCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* /////////////////////////// */
+
+/* --- Mobile --- */
+@media screen and (max-width: 540px) {
+  .containerProjets {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .cardContainer {
+    height: 100%;
+  }
+  .bodyCard {
+    padding: .5rem !important;
+    justify-content: center !important;
+  }
+  .containerBadge {
+    position: static;
+    opacity: 1;
+    font-size: 1em !important;
+    margin-top: 5%;
+  }
+}
+/* --- Mobile --- */
+
+/* /////////////////////////// */

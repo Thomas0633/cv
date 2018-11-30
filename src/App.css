@@ -1,32 +1,37 @@
 .App {
+  background-image: url('/ressources/banner1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.containerBlackApp{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.arrowUp {
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+  font-size: 4em;
+  opacity: 0.4;
+  z-index: 998;
+}
+.arrowUp a {
+  color: black !important;
+}
+.iconArrowUp {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* /////////////////////////// */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* --- Mobile --- */
+@media screen and (max-width: 540px) {
+  .arrowUp {
+    font-size: 2.5em;
   }
 }
+/* --- Mobile --- */
+
+/* /////////////////////////// */

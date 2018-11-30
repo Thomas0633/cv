@@ -1,0 +1,35 @@
+.competences {
+    background-color: transparent;
+}
+.nameCompetence {
+    font-size: 1.4em;
+}
+.backgroundCompetences {
+    background-color: white;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+.backgroundCompetences:hover {
+    transform: scale(1.2);
+}
+.rowCompetences {
+  margin-bottom: 3rem !important;
+  padding-top: 3rem !important;
+}
+
+/* /////////////////////////// */
+/* --- Mobile --- */
+@media screen and (max-width: 540px) {
+  .titleCompetences {
+    font-size: 2.8rem !important;
+  }
+  .rowCompetences {
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+  .buttonCompetences {
+    margin-top: 3rem;
+  }
+}
+/* --- Mobile --- */
+/* /////////////////////////// */

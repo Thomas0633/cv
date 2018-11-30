@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/Header.jsx';
+import Menu from './components/menu/Menu';
+import About from './components/about/About';
+import Competences from './components/competences/Competences';
+import FormaExp from './components/formationsExp/FormaExp';
+import Projets from './components/projets/Projets';
+import Contact from './components/contact/Contact';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className='containerBlackApp'>
+          <div className='arrowUp'>
+            <a href='#header'><i className="fas fa-chevron-circle-up iconArrowUp"></i></a>
+          </div>
+          <Header />
+          <Menu />
+          <About />
+          <Competences />
+          <FormaExp />
+          <Projets />
+          <Contact />
+        </div>
       </div>
     );
   }
