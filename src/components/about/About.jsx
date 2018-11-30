@@ -13,9 +13,9 @@ const About = () => {
             <h1 className='display-4 titleCategorie mb-5 mt-3'><i className="fas fa-info-circle pr-3 iconTitle"></i>A propos</h1>
 
             <Row>
-              <Col lg='3' className='d-flex align-items-center'>
+              <Col lg='3' className='d-flex justify-content-center align-items-center'>
                 <Fade left>
-                  <img src="ressources\IMG_5851.jpg" className='img-fluid' alt='Photo de profil' />
+                  <img src="ressources\IMG_5851.jpg" className='img-fluid image-profil' alt='Photo de profil' />
                 </Fade>
               </Col>
               <Col lg='9' className='text-justify colParaAbout'>

@@ -28,6 +28,9 @@
 
 /* --- Mobile --- */
 @media screen and (max-width: 540px) {
+  .App {
+    background-size: 500%;
+  }
   .arrowUp {
     font-size: 2.5em;
   }
