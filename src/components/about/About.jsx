@@ -15,7 +15,7 @@ const About = () => {
             <Row>
               <Col lg='3' className='d-flex justify-content-center align-items-center'>
                 <Fade left>
-                  <img src="ressources\IMG_5851.jpg" className='img-fluid image-profil' alt='Photo de profil' />
+                  <img src="ressources\IMG_5851.jpg" className='img-fluid image-profil' alt='Profil' />
                 </Fade>
               </Col>
               <Col lg='9' className='text-justify colParaAbout'>

@@ -14,12 +14,14 @@ class MoreCompetences extends Component {
   }
 
   render() {
+    const { arrayCompetences } = this.state;
     return(
       <div>
         <div className='mt-5 mb-5 p-5 containerMoreCompetences'>
           <h2 className='display-4'>Front-end</h2>
           <Row className='mt-3 mb-3'>
-            {this.state.arrayCompetences.map(item => {
+            {/* eslint-disable-next-line array-callback-return */}
+            {arrayCompetences.map(item => {
               if(item.cat === 'front') {
                 return(
                   <Col md='4' className='mt-5 d-flex justify-content-left align-items-center'>
@@ -37,7 +39,8 @@ class MoreCompetences extends Component {
         <div className='mt-5 mb-5 p-5 containerMoreCompetences'>
           <h2 className='display-4'>Back-end</h2>
           <Row className='mt-3 mb-3'>
-            {this.state.arrayCompetences.map(item => {
+            {/* eslint-disable-next-line array-callback-return */}
+            {arrayCompetences.map(item => {
               if(item.cat === 'back') {
                 return(
                   <Col md='4' className='mt-5 d-flex justify-content-left align-items-center'>
@@ -55,7 +58,8 @@ class MoreCompetences extends Component {
         <div className='mt-5 mb-5 p-5 containerMoreCompetences'>
           <h2 className='display-4'>Autres</h2>
           <Row className='mt-3 mb-3'>
-            {this.state.arrayCompetences.map(item => {
+            {/* eslint-disable-next-line array-callback-return */}
+            {arrayCompetences.map(item => {
               if(item.cat === 'autre') {
                 return(
                   <Col md='4' className='mt-5 d-flex justify-content-left align-items-center'>

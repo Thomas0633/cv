@@ -41,10 +41,10 @@ class FormaExp extends Component {
                 <Modele
                   name='Winespace'
                   location='Bordeaux, France'
-                  diplome='ReactJS - Redux - NodeJS - MySQL - JavaScript - Bootstrap - HTML5 - CSS3'
+                  diplome='ReactJS - Redux - NodeJS - MySQL - JavaScript - Bootstrap - CSS3 - HTML5'
                   dateDebut='EN'
                   dateFin='COURS'
-                  description="Poste de gendarme adjoint volontaire en brigade territoriale, occupé durant 4 années. Cette forte expérience m'a permis de découvrir les valeurs militaires comme le respect de la hiérarchie, la ponctualité et la disponibilité. De nombreuses responsabilités m'ont été confiée, pour cela, j'ai du acquérir une grande maturité. J'ai également travaillé en équipe au quotidien et développé mon leadership grâce à mon grade de Brigdier-Chef."
+                  description="Développement d'un site dans l'univers du vin pour la start-up Winespace. Travail en équipe de 5 développeurs et mise en place de la méthode SCRUM."
                   link='http://winespace.campus-bordeaux.ovh/'
                   txtLink='winespace.campus-bordeaux.ovh'
                 />
@@ -52,12 +52,67 @@ class FormaExp extends Component {
                 <Modele
                   name='thomasbulle.fr'
                   location='Bordeaux, France'
-                  diplome='ReactJS - JavaScript - Bootstrap - HTML5 - CSS3'
+                  diplome='ReactJS - JavaScript - Bootstrap - CSS3 - HTML5'
                   dateDebut='NOVEMBRE'
                   dateFin='2018'
                   description='Développement de mon site personnel.'
                   link='http://www.thomasbulle.fr/'
                   txtLink='www.thomasbulle.fr'
+                />
+
+                <Modele
+                  name='Chocolate box'
+                  location='Bordeaux, France'
+                  diplome='ReactJS - Redux - JavaScript - Bootstrap - CSS3 - HTML5'
+                  dateDebut='NOVEMBRE'
+                  dateFin='2018'
+                  description='Composez votre boîte de chocolat ! Développement d&apos;une application développée en React/Redux.'
+                  link='http://chocolate-box.thomasbulle.fr/'
+                  txtLink='chocolate-box.thomasbulle.fr'
+                />
+
+                <Modele
+                  name='Multi-app in React'
+                  location='Bordeaux, France'
+                  diplome='ReactJS - JavaScript - Bootstrap - CSS3 - HTML5'
+                  dateDebut='OCTOBRE 2018'
+                  dateFin='NOVEMBRE 2018'
+                  description='Développement d&apos;une application web à titre personnel mettant en oeuvre plusieurs principes de programmation sur différentes petites applications.'
+                  link='http://multi-app.thomasbulle.fr/'
+                  txtLink='multi-app.thomasbulle.fr'
+                />
+
+                <Modele
+                  name='La Tipik'
+                  location='Bordeaux, France'
+                  diplome='ReactJS - JavaScript - Bootstrap - CSS3 - HTML5'
+                  dateDebut='OCTOBRE 2018'
+                  dateFin='OCTOBRE 2018'
+                  description='Développement d&apos;un site web pour un projet fictif au sein de la Wild Code School. Projet réalisé en équipe de 5 développeurs. Travail en agile (Scrum).'
+                  link='http://la-tipik.thomasbulle.fr/'
+                  txtLink='la-tipik.thomasbulle.fr'
+                />
+
+                <Modele
+                  name='Wild Cerf-tête'
+                  location='Bordeaux, France'
+                  diplome='Bootstrap - CSS3 - HTML5'
+                  dateDebut='SEPTEMBRE 2018'
+                  dateFin='SEPTEMBRE 2018'
+                  description='Développement d&apos;un site web vitrine pour un projet fictif au sein de la Wild Code School. Projet réalisé en équipe de 5 développeurs sur une durée d&apos;un mois. Travail en agile (Scrum).'
+                  link='http://cerf-tete.thomasbulle.fr/'
+                  txtLink='cerf-tete.thomasbulle.fr'
+                />
+
+                <Modele
+                  name='Fruits salad'
+                  location='Bordeaux, France'
+                  diplome='CSS3 - HTML5'
+                  dateDebut='SEPTEMBRE 2018'
+                  dateFin='SEPTEMBRE 2018'
+                  description='Intégration d&apos;une maquette en HTML5 et CSS3.'
+                  link='http://fruits-salad.thomasbulle.fr/'
+                  txtLink='fruits-salad.thomasbulle.fr'
                 />
 
                 <Modele
