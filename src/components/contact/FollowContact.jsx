@@ -19,7 +19,6 @@ class FollowContact extends Component {
                   <h3 className='font-weight-light'>Suivez-moi !</h3>
                   <div className='h-100 d-flex justify-content-center align-items-center'>
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                    <a href='#' target='_blank' rel='noreferrer noopener' className='text-white'><i className="fab fa-twitter pl-4 pr-4 logoSocial"></i></a>
                     <a href='https://www.linkedin.com/in/thomas-bulle/' target='_blank' rel='noreferrer noopener' className='text-white'><i className="fab fa-linkedin pl-4 pr-4 logoSocial"></i></a>
                     <a href='https://github.com/Thomas0633' target='_blank' rel='noreferrer noopener' className='text-white'><i className="fab fa-github pl-4 pr-4 logoSocial"></i></a>
                   </div>

@@ -34,7 +34,7 @@ const Modele = (props) => {
           <div className='h-100 text-justify d-flex align-items-center txtFormations'>
             <div className='p-3 w-100'>
               {props.description}
-              <a href={props.link} className='d-block w-100'>{props.link}</a>
+              <a href={props.link} target='_blank' rel='noreferrer noopener' className='d-block w-100'>{props.link}</a>
             </div>
           </div>
           </Fade>

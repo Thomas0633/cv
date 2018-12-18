@@ -89,8 +89,8 @@ class FormaExp extends Component {
                   dateDebut='OCTOBRE 2018'
                   dateFin='OCTOBRE 2018'
                   description='Développement d&apos;un site web pour un projet fictif au sein de la Wild Code School. Projet réalisé en équipe de 5 développeurs. Travail en agile (Scrum).'
-                  link='http://la-tipik.thomasbulle.fr/'
-                  txtLink='la-tipik.thomasbulle.fr'
+                  link='http://latipik.thomasbulle.fr/'
+                  txtLink='latipik.thomasbulle.fr'
                 />
 
                 <Modele
@@ -121,7 +121,7 @@ class FormaExp extends Component {
                   diplome='Gendarme Adjoint Volontaire - Brigadier-Chef'
                   dateDebut='SEPTEMBRE 2014'
                   dateFin='SEPTEMBRE 2018'
-                  description="Poste de gendarme adjoint volontaire en brigade territoriale, occupé durant 4 années. Cette forte expérience m'a permis de découvrir les valeurs militaires comme le respect de la hiérarchie, la ponctualité et la disponibilité. De nombreuses responsabilités m'ont été confiée, pour cela, j'ai du acquérir une grande maturité. J'ai également travaillé en équipe au quotidien et développé mon leadership grâce à mon grade de Brigadier-Chef."
+                  description="Poste de gendarme adjoint volontaire en brigade territoriale, occupé durant 4 années. Cette forte expérience m'a permis de découvrir les valeurs militaires comme le respect de la hiérarchie, la ponctualité et la disponibilité. De nombreuses responsabilités m'ont été confiées, pour cela, j'ai du acquérir une grande maturité. J'ai également travaillé en équipe au quotidien et développé mon leadership grâce à mon grade de Brigadier-Chef."
                 />
               </Container>
             </div>
