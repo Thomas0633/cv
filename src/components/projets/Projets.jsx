@@ -13,9 +13,9 @@ class Projets extends Component {
 
                     <Row className='d-flex justify-content-center'>
                       <CardProjets
-                        image='ressources/projet1-react.png'
-                        title='Multi-App in React'
-                        description="Développement d'une application web à titre personnel mettant en oeuvre plusieurs principes de programmation sur différentes petites applications."
+                        image='ressources/winespace.jpg'
+                        title='Winespace'
+                        description="Développement d'un site dans l'univers du vin pour la start-up Winespace. Travail en équipe de 5 développeurs et mise en place de la méthode SCRUM."
                         techno={
                           <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
                             <Badge className='mr-3 badgeCard'>HTML 5</Badge>
@@ -23,9 +23,12 @@ class Projets extends Component {
                             <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
                             <Badge className='mr-3 badgeCard'>JavaScript</Badge>
                             <Badge className='mr-3 badgeCard'>ReactJS</Badge>
+                            <Badge className='mr-3 badgeCard'>NodeJS</Badge>
+                            <Badge className='mr-3 badgeCard'>MySQL</Badge>
+                            <Badge className='mr-3 badgeCard'>PhpMyAdmin</Badge>
                           </div>
                         }
-                        link='http://multi-app.thomasbulle.fr/'
+                        link='http://winespace.campus-bordeaux.ovh/'
                       />
 
                       <CardProjets
@@ -45,6 +48,22 @@ class Projets extends Component {
                       />
 
                       <CardProjets
+                        image='ressources/projet1-react.png'
+                        title='Multi-App in React'
+                        description="Développement d'une application web à titre personnel mettant en oeuvre plusieurs principes de programmation sur différentes petites applications."
+                        techno={
+                          <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
+                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
+                            <Badge className='mr-3 badgeCard'>ReactJS</Badge>
+                          </div>
+                        }
+                        link='http://multi-app.thomasbulle.fr/'
+                      />
+
+                      <CardProjets
                         image='ressources/cerf-tete.png'
                         title='Wild Cerf-tête'
                         description="Développement d'un site web vitrine pour un projet fictif au sein de la Wild Code School. Projet réalisé en équipe de 5 développeurs sur une durée d'un mois. Travail en agile (Scrum)."
@@ -56,19 +75,6 @@ class Projets extends Component {
                           </div>
                         }
                         link='http://cerf-tete.thomasbulle.fr/'
-                      />
-
-                      <CardProjets
-                        image='ressources/wild-circus.JPG'
-                        title='Wild Circus'
-                        description="Création d'un site fictif destiné à une troupe de cirque. Projet effectué dans le cadre de la candidature à la Wild Code School."
-                        techno={
-                          <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
-                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
-                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
-                          </div>
-                        }
-                        link='http://wild-circus.thomasbulle.fr/'
                       />
 
                       <CardProjets
@@ -117,6 +123,19 @@ class Projets extends Component {
                           </div>
                         }
                         link='http://lumiere.thomasbulle.fr/'
+                      />
+
+                      <CardProjets
+                        image='ressources/wild-circus.JPG'
+                        title='Wild Circus'
+                        description="Création d'un site fictif destiné à une troupe de cirque. Projet effectué dans le cadre de la candidature à la Wild Code School."
+                        techno={
+                          <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                          </div>
+                        }
+                        link='http://wild-circus.thomasbulle.fr/'
                       />
 
                       <CardProjets
