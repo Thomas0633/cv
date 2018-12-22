@@ -17,9 +17,31 @@ class FormaExp extends Component {
                       name='Wild Code School'
                       location='Bordeaux, Gironde'
                       diplome='Formation développeur web - Full stack'
-                      dateDebut='SEPTEMBRE 2018'
+                      dateDebut='DECEMBRE 2017'
                       dateFin='FEVRIER 2019'
                       description="Formation d'une durée de 5 mois dans laquelle j'ai pu me former au métier de développeur web. J'ai pu découvrir différentes technologies front-end mais également back-end, ce qui m'a permis de devenir full-stack. Durant toute cette formation, j'ai appliqué la méthode agile, plus précisément en Scrum. Cela m'a permis d'accroître mon sens du travaille en équipe."
+                    />
+
+                    <Modele
+                      name='Openclassroom'
+                      location='France'
+                      diplome='Certificat "Apprenez à coder avec JavaScript"'
+                      dateDebut='DECEMBRE 2017'
+                      dateFin='JANVIER 2018'
+                      description="Formation aux bases du language JavaScript."
+                      link='https://openclassrooms.com/fr/course-certificates/3693422984'
+                      txtLink='Voir le certificat'
+                    />
+
+                    <Modele
+                      name='Openclassroom'
+                      location='France'
+                      diplome='Certificat "Apprenez à créer vos sites web avec HTML5 et CSS3"'
+                      dateDebut='DECEMBRE'
+                      dateFin='2017'
+                      description="Formation aux bases de la programmation web. Apprentissage des languages HTML5 et CSS3."
+                      link='https://openclassrooms.com/fr/course-certificates/5990192394'
+                      txtLink='Voir le certificat'
                     />
                     
                     <Modele
@@ -37,6 +59,17 @@ class FormaExp extends Component {
             <div className='experiences'>
               <Container fluid className='containerFormations'>
                 <h1 className='display-4 titleCategorie mb-5'><i className="fas fa-suitcase pr-3 iconTitle"></i>Expériences</h1>
+
+                <Modele
+                  name='Hackathon'
+                  location='Bordeaux, France'
+                  diplome='Pour une sobriété numérique'
+                  dateDebut='DECEMBRE'
+                  dateFin='2018'
+                  description="Hackathon du 21 au 22 décembre 2018 sur la problématique de l'impact environnemental de la Transition Numérique, en partenariat avec The Shift Project."
+                  link=''
+                  txtLink=''
+                />
 
                 <Modele
                   name='Winespace'
@@ -58,6 +91,17 @@ class FormaExp extends Component {
                   description='Développement de mon site personnel.'
                   link='http://www.thomasbulle.fr/'
                   txtLink='www.thomasbulle.fr'
+                />
+
+                <Modele
+                  name='Hackathon'
+                  location='Bordeaux, France'
+                  diplome='B-Boost : modèle ouvert et cancérologie'
+                  dateDebut='NOVEMBRE'
+                  dateFin='2018'
+                  description="Hackathon du 06 au 07 novembre 2018 sur le thème de la cancérologie et l'open data, en partenariat avec Epidemium."
+                  link='https://b-boost.fr/'
+                  txtLink='https://b-boost.fr/'
                 />
 
                 <Modele
