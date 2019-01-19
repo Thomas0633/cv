@@ -18,14 +18,14 @@ class Projets extends Component {
                         description="Développement d'un site dans l'univers du vin pour la start-up Winespace. Travail en équipe de 5 développeurs et mise en place de la méthode SCRUM."
                         techno={
                           <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
-                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
-                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
-                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
-                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
                             <Badge className='mr-3 badgeCard'>ReactJS</Badge>
+                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
                             <Badge className='mr-3 badgeCard'>NodeJS</Badge>
                             <Badge className='mr-3 badgeCard'>MySQL</Badge>
                             <Badge className='mr-3 badgeCard'>PhpMyAdmin</Badge>
+                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
                           </div>
                         }
                         link='http://winespace.campus-bordeaux.ovh/'
@@ -37,11 +37,27 @@ class Projets extends Component {
                         description="Développement d'un site web pour un projet fictif au sein de la Wild Code School. Projet réalisé en équipe de 5 développeurs sur une durée de 5 semaines. Travail en agile (Scrum)."
                         techno={
                           <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
-                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
-                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
-                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
-                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
                             <Badge className='mr-3 badgeCard'>ReactJS</Badge>
+                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
+                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
+                          </div>
+                        }
+                        link='http://latipik.thomasbulle.fr/'
+                      />
+
+                      <CardProjets
+                        image='ressources/dashboard.jpg'
+                        title='Dashboard'
+                        description="Développement d'une application web basé sur le localStorage du navigateur, représentant un dashboard administrateur et client. Identifiants administrateur : admin - admin321. Identifiants client : user - user123."
+                        techno={
+                          <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
+                            <Badge className='mr-3 badgeCard'>ReactJS</Badge>
+                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
+                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
                           </div>
                         }
                         link='http://latipik.thomasbulle.fr/'
@@ -53,11 +69,11 @@ class Projets extends Component {
                         description="Développement d'une application web à titre personnel mettant en oeuvre plusieurs principes de programmation sur différentes petites applications."
                         techno={
                           <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
-                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
-                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
-                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
-                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
                             <Badge className='mr-3 badgeCard'>ReactJS</Badge>
+                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
+                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
                           </div>
                         }
                         link='http://multi-app.thomasbulle.fr/'
@@ -69,9 +85,9 @@ class Projets extends Component {
                         description="Développement d'un site web vitrine pour un projet fictif au sein de la Wild Code School. Projet réalisé en équipe de 5 développeurs sur une durée d'un mois. Travail en agile (Scrum)."
                         techno={
                           <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
-                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
-                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
                             <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
                           </div>
                         }
                         link='http://cerf-tete.thomasbulle.fr/'
@@ -83,13 +99,12 @@ class Projets extends Component {
                         description='Composez votre boîte de chocolat ! Une petit application développée en React / Redux.'
                         techno={
                           <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
-                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
-                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
-                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
-                            <Badge className='mr-3 badgeCard'>ReactStrap</Badge>
-                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
                             <Badge className='mr-3 badgeCard'>ReactJS</Badge>
                             <Badge className='mr-3 badgeCard'>Redux</Badge>
+                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
+                            <Badge className='mr-3 badgeCard'>Bootstrap</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
                           </div>
                         }
                         link='http://chocolate-box.thomasbulle.fr/'
@@ -101,10 +116,10 @@ class Projets extends Component {
                         description="Une petite application qui utilise une API et génère aléatoirement des employés ou des citations des Simpsons."
                         techno={
                           <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
-                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
-                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
-                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
                             <Badge className='mr-3 badgeCard'>ReactJS</Badge>
+                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
                           </div>
                         }
                         link='http://random-fetch.thomasbulle.fr/'
@@ -116,10 +131,10 @@ class Projets extends Component {
                         description="Petite application pour mettre en pratique React. Appuyez sur les interrupteurs pour allumer ou éteindre les lampes."
                         techno={
                           <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
-                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
-                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
-                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
                             <Badge className='mr-3 badgeCard'>ReactJS</Badge>
+                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
                           </div>
                         }
                         link='http://lumiere.thomasbulle.fr/'

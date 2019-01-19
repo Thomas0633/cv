@@ -61,6 +61,28 @@ class FormaExp extends Component {
                 <h1 className='display-4 titleCategorie mb-5'><i className="fas fa-suitcase pr-3 iconTitle"></i>Expériences</h1>
 
                 <Modele
+                  name='Winespace'
+                  location='Bordeaux, France'
+                  diplome='ReactJS - NodeJS - MySQL - JavaScript - Bootstrap - CSS3 - HTML5'
+                  dateDebut='EN'
+                  dateFin='COURS'
+                  description="Développement d'un site dans l'univers du vin pour la start-up Winespace. Travail en équipe de 5 développeurs et mise en place de la méthode SCRUM."
+                  link='http://winespace.campus-bordeaux.ovh/'
+                  txtLink='winespace.campus-bordeaux.ovh'
+                />
+
+                <Modele
+                  name='Dashboard'
+                  location='Bordeaux, France'
+                  diplome='ReactJS - JavaScript - API Rest - Bootstrap - CSS3 - HTML5'
+                  dateDebut='JANVIER'
+                  dateFin='2019'
+                  description="Développement d'une application web basé sur le localStorage du navigateur, représentant un dashboard administrateur et client. Identifiants administrateur : admin - admin321. Identifiants client : user - user123."
+                  link='http://dashboard.thomasbulle.fr/'
+                  txtLink='dashboard.thomasbulle.fr'
+                />
+
+                <Modele
                   name='Hackathon'
                   location='Bordeaux, France'
                   diplome='Pour une sobriété numérique'
@@ -69,17 +91,6 @@ class FormaExp extends Component {
                   description="Hackathon du 21 au 22 décembre 2018 sur la problématique de l'impact environnemental de la Transition Numérique, en partenariat avec The Shift Project."
                   link=''
                   txtLink=''
-                />
-
-                <Modele
-                  name='Winespace'
-                  location='Bordeaux, France'
-                  diplome='ReactJS - Redux - NodeJS - MySQL - JavaScript - Bootstrap - CSS3 - HTML5'
-                  dateDebut='EN'
-                  dateFin='COURS'
-                  description="Développement d'un site dans l'univers du vin pour la start-up Winespace. Travail en équipe de 5 développeurs et mise en place de la méthode SCRUM."
-                  link='http://winespace.campus-bordeaux.ovh/'
-                  txtLink='winespace.campus-bordeaux.ovh'
                 />
 
                 <Modele
