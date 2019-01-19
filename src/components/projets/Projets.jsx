@@ -60,7 +60,7 @@ class Projets extends Component {
                             <Badge className='mr-3 badgeCard'>HTML 5</Badge>
                           </div>
                         }
-                        link='http://latipik.thomasbulle.fr/'
+                        link='http://dashboard.thomasbulle.fr/'
                       />
 
                       <CardProjets

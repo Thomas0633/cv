@@ -1,6 +1,7 @@
 {
   "name": "site-perso",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "ajv": "^6.5.5",
