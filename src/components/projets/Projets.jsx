@@ -13,6 +13,24 @@ class Projets extends Component {
 
                     <Row className='d-flex justify-content-center'>
                       <CardProjets
+                        image='ressources/purevoyance.jpg'
+                        title='Purevoyance'
+                        description="Site de voyance en ligne permettant de consulter des voyants directement depuis l'interface du site."
+                        techno={
+                          <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadge'>
+                            <Badge className='mr-3 badgeCard'>ReactJS</Badge>
+                            <Badge className='mr-3 badgeCard'>NextJS</Badge>
+                            <Badge className='mr-3 badgeCard'>Redux</Badge>
+                            <Badge className='mr-3 badgeCard'>JavaScript</Badge>
+                            <Badge className='mr-3 badgeCard'>Sass</Badge>
+                            <Badge className='mr-3 badgeCard'>CSS 3</Badge>
+                            <Badge className='mr-3 badgeCard'>HTML 5</Badge>
+                          </div>
+                        }
+                        link='https://www.purevoyance.com/'
+                      />
+
+                      <CardProjets
                         image='ressources/winespace.jpg'
                         title='Winespace'
                         description="Développement d'un site dans l'univers du vin pour la start-up Winespace. Travail en équipe de 5 développeurs et mise en place de la méthode SCRUM."

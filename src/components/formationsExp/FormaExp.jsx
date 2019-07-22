@@ -29,7 +29,7 @@ class FormaExp extends Component {
                       dateDebut='DECEMBRE 2017'
                       dateFin='JANVIER 2018'
                       description="Formation aux bases du language JavaScript."
-                      link='https://openclassrooms.com/fr/course-certificates/3693422984'
+                      link='/certificat-js.pdf'
                       txtLink='Voir le certificat'
                     />
 
@@ -40,7 +40,7 @@ class FormaExp extends Component {
                       dateDebut='DECEMBRE'
                       dateFin='2017'
                       description="Formation aux bases de la programmation web. Apprentissage des languages HTML5 et CSS3."
-                      link='https://openclassrooms.com/fr/course-certificates/5990192394'
+                      link='/certificat-html.pdf'
                       txtLink='Voir le certificat'
                     />
                     
@@ -60,6 +60,15 @@ class FormaExp extends Component {
               <Container fluid className='containerFormations'>
                 <h1 className='display-4 titleCategorie mb-5'><i className="fas fa-suitcase pr-3 iconTitle"></i>Expériences</h1>
 
+                <Modele
+                  name='Télémaque'
+                  location='Sophia Antipolis, Alpes-Maritimes'
+                  diplome='Développeur web'
+                  dateDebut='FEVRIER'
+                  dateFin='2019'
+                  description="Développeur web front-end, en poste actuellement, je travaille avec des technologies axées principalement sur JavaScript comme ReactJS, NextJS, Redux, mais aussi des technologies back-end comme PHP, Laravel ou encore Strapi. Je m'occupe principalement du développement des interfaces des sites grand public de la société."
+                />
+                
                 <Modele
                   name='Winespace'
                   location='Bordeaux, France'

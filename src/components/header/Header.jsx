@@ -21,7 +21,7 @@ class Header extends Component {
             <header style={{ minHeight: this.state.hauteur }} className='d-flex justify-content-center align-items-center header' id='header'>
                 <h1 className='pt-5 pb-5 headTitle'>
                     <span className='display-2 headName'>Thomas BULLE</span>
-                    <span className='display-2 mt-2 pl-3 pr-3 headJob'>Developpeur web Junior</span>
+                    <span className='display-2 mt-2 pl-3 pr-3 headJob'>Developpeur web front-end</span>
                 </h1>
             </header>
         );

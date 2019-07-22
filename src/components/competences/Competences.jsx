@@ -31,16 +31,16 @@ class Competences extends Component {
 
                     <Zoom>
                         <Row className='rowCompetences'>
-                            <Col lg='4' className='w-100 mt-4 mb-4 pr-5 pl-5 d-flex justify-content-center'>
+                            <Col lg='4' className='mt-4 mb-4 pr-5 pl-5 d-flex justify-content-center'>
                                 <div className='pt-2 w-50 h-100 d-flex flex-column align-items-center justify-content-center backgroundCompetences'>
-                                    <img src='ressources\html.png' className='w-75 img-fluid' alt='HTML 5' />
-                                    <span className='nameCompetence mt-2 mb-2'>HTML 5</span>
+                                    <img src='ressources\react.png' className='w-75 img-fluid' alt='React JS' />
+                                    <span className='nameCompetence mt-2 mb-2'>React JS</span>
                                 </div>
                             </Col>
                             <Col lg='4' className='mt-4 mb-4 pr-5 pl-5 d-flex justify-content-center'>
                                 <div className='pt-2 w-50 h-100 d-flex flex-column align-items-center justify-content-center backgroundCompetences'>
-                                    <img src='ressources\css.png' className='w-75 img-fluid' alt='CSS 3' />
-                                    <span className='nameCompetence mt-2 mb-2'>CSS 3</span>
+                                    <img src='ressources\nextjs.png' className='w-75 img-fluid' alt='NextJS' />
+                                    <span className='nameCompetence mt-2 mb-2'>NextJS</span>
                                 </div>
                             </Col>
                             <Col lg='4' className='mt-4 mb-4 pr-5 pl-5 d-flex justify-content-center'>
@@ -54,20 +54,20 @@ class Competences extends Component {
                         <Row className='rowCompetences'>
                             <Col lg='4' className='mt-4 mb-4 pr-5 pl-5 d-flex justify-content-center'>
                                 <div className='pt-2 w-50 h-100 d-flex flex-column align-items-center justify-content-center backgroundCompetences'>
-                                    <img src='ressources\react.png' className='w-75 img-fluid' alt='React JS' />
-                                    <span className='nameCompetence mt-2 mb-2'>React JS</span>
-                                </div>
-                            </Col>
-                            <Col lg='4' className='mt-4 mb-4 pr-5 pl-5 d-flex justify-content-center'>
-                                <div className='pt-2 w-50 h-100 d-flex flex-column align-items-center justify-content-center backgroundCompetences'>
                                     <img src='ressources\node.png' className='w-75 img-fluid' alt='Node JS' />
                                     <span className='nameCompetence mt-2 mb-2'>Node JS</span>
                                 </div>
                             </Col>
                             <Col lg='4' className='mt-4 mb-4 pr-5 pl-5 d-flex justify-content-center'>
                                 <div className='pt-2 w-50 h-100 d-flex flex-column align-items-center justify-content-center backgroundCompetences'>
-                                    <img src='ressources\bootstrap.png' className='w-75 img-fluid' alt='Bootstrap' />
-                                    <span className='nameCompetence mt-2 mb-2'>Bootstrap</span>
+                                    <img src='ressources\css.png' className='w-75 img-fluid' alt='CSS 3' />
+                                    <span className='nameCompetence mt-2 mb-2'>CSS 3</span>
+                                </div>
+                            </Col>
+                            <Col lg='4' className='w-100 mt-4 mb-4 pr-5 pl-5 d-flex justify-content-center'>
+                                <div className='pt-2 w-50 h-100 d-flex flex-column align-items-center justify-content-center backgroundCompetences'>
+                                    <img src='ressources\html.png' className='w-75 img-fluid' alt='HTML 5' />
+                                    <span className='nameCompetence mt-2 mb-2'>HTML 5</span>
                                 </div>
                             </Col>
                         </Row>

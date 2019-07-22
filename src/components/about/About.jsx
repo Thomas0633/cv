@@ -24,7 +24,7 @@ const About = () => {
                   <br />
                   Après avoir obtenu mon baccalauréat STMG spécialité ressources humaines, je me suis engagé en tant que gendarme adjoint volontaire. Durant 4 années dans ce poste, j'ai pu découvrir le travail au sein d'une très grande institution publique. Force de caractère, j'ai su m'imposer et accroître mon leadership en étant nommé au grade de Brigadier-Chef. La rigueur et la discipline font partie intégrante de mes valeurs.
                   <br />
-                  Après cette forte expérience passée dans ce corps d'armée, je me suis réorienté dans le développement web. Je suis, à présent, en formation à la Wild Code School de Bordeaux afin d'exercer ma passion au quotidien.
+                  Après cette forte expérience passée dans ce corps d'armée, je me suis réorienté dans le développement web. J'ai entrepris une formation à la Wild Code School de Bordeaux afin d'exercer ma passion au quotidien.
                   <br />
                   Grâce à cette formation, j'ai pu développer mes compétences principalement en JavaScript, ReactJS, NodeJS, ce qui me permet aujourd'hui d'être full-stack. Cet apprentissage m'a également appris à apprendre. En effet, la technique d'enseignement appliquée est une pédagogie inversée qui m'a appris à chercher par moi-même lorsque je suis face à un problème. J'ai pu réaliser différents projets, mettant en application toutes les technologies découvertes, ce qui m'a apporter de l'expérience et une grande confiance en mes compétences en développement web.</p>
                 </Bounce>
@@ -35,7 +35,7 @@ const About = () => {
                   <br />
                   Je suis sans cesse à la recherche de nouvelles compétences comme de nouveaux langages. La veille technologique est primordiale pour moi, afin de rester à jour de toutes les nouveautés du web.
                   <br />
-                  Je suis à la recherche d'un stage ou d'une opportunité d'emplois à partir du 01 février 2019. N'hésitez pas à me contacter par mail thomasbulle@hotmail.fr ou sur mon linkedin.
+                  Actuellement en poste en tant que développeur web chez Télémaque, je suis à la recherche d'une opportunité d'emplois. N'hésitez pas à me contacter par mail thomasbulle@hotmail.fr ou directement sur mon linkedin.
                 </p>
               </Zoom>
             </Row>
