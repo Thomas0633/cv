@@ -61,12 +61,21 @@ class FormaExp extends Component {
                 <h1 className='display-4 titleCategorie mb-5'><i className="fas fa-suitcase pr-3 iconTitle"></i>Expériences</h1>
 
                 <Modele
+                  name='Cleeven'
+                  location='Sophia Antipolis, Alpes-Maritimes'
+                  diplome='Développeur web'
+                  dateDebut='SEPTEMBRE'
+                  dateFin='2019'
+                  description="Développeur web, en poste actuellement, je travaille avec des technologies axées principalement sur JavaScript comme ReactJS, Redux, mais aussi des technologies back-end comme NodeJS. Je m'occupe principalement du développement front-end de ce projet mais j'intervient également dans l'architecture du projet et du choix des technologies."
+                />
+
+                <Modele
                   name='Télémaque'
                   location='Sophia Antipolis, Alpes-Maritimes'
                   diplome='Développeur web'
-                  dateDebut='FEVRIER'
-                  dateFin='2019'
-                  description="Développeur web front-end, en poste actuellement, je travaille avec des technologies axées principalement sur JavaScript comme ReactJS, NextJS, Redux, mais aussi des technologies back-end comme PHP, Laravel ou encore Strapi. Je m'occupe principalement du développement des interfaces des sites grand public de la société."
+                  dateDebut='FEVRIER 2019'
+                  dateFin='SEPTEMBRE 2019'
+                  description="Développeur web, j'ai travaillé avec des technologies axées principalement sur JavaScript comme ReactJS, NextJS, Redux, mais aussi des technologies back-end comme PHP, Laravel ou encore Strapi. Mon activité principale était le développement des interfaces des sites grand public de la société."
                 />
                 
                 <Modele

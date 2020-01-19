@@ -8,7 +8,7 @@ class Contact extends Component {
     render() {
         return(
           <div id='idContact'>
-            <div className='ecartScroll'></div>
+            <div className='ecartScroll' style={{ backgroundColor: '#fff' }}></div>
             <div className='text-white contact'>
               <InfoContact />
               <FollowContact />

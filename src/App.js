@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Competences from './components/competences/Competences';
 import FormaExp from './components/formationsExp/FormaExp';
 import Projets from './components/projets/Projets';
+import Photoshop from './components/photoshop/Photoshop';
 import Contact from './components/contact/Contact';
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
           <Competences />
           <FormaExp />
           <Projets />
+          <Photoshop />
           <Contact />
         </div>
       </div>
