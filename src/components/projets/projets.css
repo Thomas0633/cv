@@ -9,6 +9,12 @@
   background-color: rgb(160, 202, 216) !important;
   font-size: 0.8em !important;
 }
+.under-maintenance {
+  position: absolute;
+  left: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
 .iconReduceCard {
   transform: rotate(0.5turn);
 }
@@ -21,6 +27,9 @@
 }
 .divImageCard {
   position: relative;
+}
+.isWinespace:hover {
+  cursor: not-allowed;
 }
 .containerBadge:hover {
   transition: 0.5s;

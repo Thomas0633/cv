@@ -47,6 +47,7 @@ class Projets extends Component {
                           </div>
                         }
                         link='http://winespace.campus-bordeaux.ovh/'
+                        propsCard={{ title: 'En maintenance' }}
                       />
 
                       <CardProjets

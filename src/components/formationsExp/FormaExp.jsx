@@ -61,7 +61,7 @@ class FormaExp extends Component {
                 <h1 className='display-4 titleCategorie mb-5'><i className="fas fa-suitcase pr-3 iconTitle"></i>Expériences</h1>
 
                 <Modele
-                  name='Cleeven'
+                  name='ST Microelectronics'
                   location='Sophia Antipolis, Alpes-Maritimes'
                   diplome='Développeur web'
                   dateDebut='SEPTEMBRE'
