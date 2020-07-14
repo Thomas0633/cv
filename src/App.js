@@ -14,6 +14,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className='containerBlackApp'>
+          <a className='download-cv-button' href='curriculum-vitae.pdf' download title='Télécharger mon CV'>
+            <span className='title-download-cv-button'>CV</span>
+            <img src='/ressources/download-icon.svg' alt='Télécharger mon CV' className='icon-download-cv-button' />
+          </a>
+
           <div className='arrowUp'>
             <a href='#header'><i className="fas fa-chevron-circle-up iconArrowUp"></i></a>
           </div>
