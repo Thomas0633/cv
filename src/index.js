@@ -4,8 +4,10 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
-
+import ReactGA from 'react-ga';
 import { BrowserRouter } from 'react-router-dom';
+
+ReactGA.initialize('UA-173602029-1');
 
 ReactDOM.render(
   <BrowserRouter>
