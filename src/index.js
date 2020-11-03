@@ -8,6 +8,7 @@ import ReactGA from 'react-ga';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactGA.initialize('UA-173602029-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
   <BrowserRouter>
